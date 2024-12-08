@@ -9,12 +9,15 @@ This prediction model used logistic regression to classify loans as "healthy" an
 
 ## Results
 •	Accuracy: Reflects the overall correctness of predictions across all classes. This model shows a high level of accuracy of 99% for healthy loans.
+
 •	Precision
 o	Class 0 (Healthy Loans): High precision means that most loans predicted as healthy were indeed healthy. This model showed that healthy loan identification precision was 1.00, which is very good. 
 o	Class 1 (High-Risk Loans): Indicates the proportion of loans predicted as high-risk that were truly high-risk. This model shows the precision for these loans was 0.86.
+
 •	Recall
 o	Class 0: Represents the percentage of actual healthy loans correctly identified as healthy. The recall for these loans were shown to be 1.0, which is very good.
 o	Class 1: Represents the percentage of actual high-risk loans correctly identified as high-risk. The recall on these loans was 0.94.
+
 •	F1-Score: Provides a harmonic mean of precision and recall, offering a balanced measure of the two.
 •	This model was shown to be highly reliable with only 108 misclassifications of loans. This was out of the 15,508 loans. 
 
